@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&display=swap');
+
+.section-slider{
+    display: inline-flex;
+    width: 100%;
+    height: 39rem;
+    background-image: url('../Pic/dan-cristian-padure-tJ3kT10h6zk-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255, 0.7);
+    font-family: 'Lora', serif;
+    overflow: hidden;
+}
+.main-slider{
+    display: inline-flex;
+    align-self: center;
+    align-items: center;
+    width: 100%;
+    height: 39rem;
+}
+.main-slider div{
+    display: flex;
+    background-color: rgba(255, 255, 255, .01);  
+    backdrop-filter: blur(9px);
+    height: 32rem;
+}
+.img1,.img2,.img3,
+.img4,.img5,.img6,
+.img7,.img8,.img9{
+    display: inline-block;
+    margin: 0 1.8rem;
+}
+.img1:hover,.img2:hover,.img3:hover,
+.img4:hover,.img5:hover,.img6:hover,
+.img7:hover,.img8:hover,.img9:hover{
+    transform: scale(0.95);
+}
+.img1{
+    background-image: url('../Products-Pic/img9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.7s ease-in-out;
+}
+.img2{
+    background-image: url('../Products-Pic/img6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.7s ease-in-out;
+}
+.img3{
+    background-image: url('../Products-Pic/img2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.7s ease-in-out;
+}
+.img4{
+    background-image: url('../Products-Pic/img4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.7s ease-in-out;
+}
+.img5{
+    background-image: url('../Products-Pic/img5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.7s ease-in-out;
+}
+.img6{
+    background-image: url('../Products-Pic/img3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.7s ease-in-out;
+}
+.img7{
+    background-image: url('../Products-Pic/img1.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.7s ease-in-out;
+}
+.img8{
+    background-image: url('../Products-Pic/img8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.7s ease-in-out;
+}
+.img9{
+    background-image: url('../Products-Pic/img7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.7s ease-in-out;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    width: 100%;
+    margin-top: 23rem;
+    background-color: rgba(255, 255, 255, .01);  
+    backdrop-filter: blur(9px);
+}
+.info-title{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.products-shop-btn{
+    background: none;
+    text-align: center;
+    color: rgb(200, 15, 30);
+    border-style: solid;
+    border-color: rgb(200, 15, 30);
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    height: 2rem;
+    width: 8rem;
+    margin-top: 1rem;
+}

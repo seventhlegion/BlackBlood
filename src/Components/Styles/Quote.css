@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&display=swap');
+
+.submit-container{
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    background-color: rgb(116, 116, 116);
+    background-image: url('../Pic/andrew-nalyvaiko-8lJi_WlwPks-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: left;
+    font-size: 24px;
+    color: white;
+    font-family: 'Lora', serif;
+    overflow: hidden;
+}
+.submit-container p{
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 7rem;
+    padding: 0;
+    font-size: 26.4px;
+}
+.input form{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    margin-left: 15rem;
+    width: 100%;
+}
+.email{
+    background: none;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    width: 44.5%;
+    height: 3rem;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+.submit{
+    border-style: solid;
+    background: none;
+    color: white;
+    height: 3.4rem;
+    width: 14%;
+    margin-left: 0.5rem;
+    border-color: white;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    transition: color 0.7s ease-in-out, border 0.7s ease-in-out;
+}
+.content{
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    font-size: medium;
+    color: white;
+    background: none;
+}
+.submit:hover{
+    cursor: pointer;
+    color: rgb(200, 15, 30);
+    border-color: rgb(200, 15, 30);
+}
+
+
+@media screen and (max-width: 720px) {
+    .input form{
+        margin: 0;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .submit-container p{
+        margin: 6rem 0 1rem 0;
+        display: block;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .email{
+        width: 60%;
+    }
+    .submit{
+        width: 25.5%;
+    }
+    .content{
+        display: flex;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 720px) {
+    .input form{
+        margin: 0;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .submit-container p{
+        margin: 6rem 0 1rem 0;
+        display: block;
+        text-align: center;
+        font-size: 1.36rem;
+    }
+    .email{
+        width: 60%;
+    }
+    .submit{
+        width: 25.5%;
+    }
+    .content{
+        display: flex;
+        margin-left: 2.5rem;
+    }
+}
+

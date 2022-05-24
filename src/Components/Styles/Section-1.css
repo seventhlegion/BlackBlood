@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&display=swap');
+
+.Section-1{
+    width: 100%;
+    height: 39rem;
+    background-color: black;
+    background-image: url('../Pic/thomas-thompson-KRBNQEcousw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 24px;
+    color: white;
+}
+.div-mainPage{
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+.p-mainPage{
+    padding: 12rem 28rem 0rem 8rem;
+    margin: 0;
+    text-align: left;
+    font-family: 'Lora', serif;
+    font-size: 62px;
+}
+.div-mainPage:hover{
+    cursor: default;
+}
+
+@media screen and (max-width: 720px) {
+    .Section-1{
+        overflow: hidden;
+    }
+    .p-mainPage{
+        padding: 14rem 0 0 4rem;
+        width: 100%;
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 720px) {
+    .Section-1{
+        overflow: hidden;
+    }
+    .p-mainPage{
+        padding: 14rem 0 0 4rem;
+        width: 100%;
+        font-size: 52px;
+    }
+}

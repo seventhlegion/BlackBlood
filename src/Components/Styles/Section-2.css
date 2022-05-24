@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&display=swap');
+
+.carousel{
+    width: 100%;
+    height: 39rem;
+}
+.pic1 {
+    display: inline-flex;
+    margin: 0;
+    width: 100%;
+    height: 39rem;
+    top: 0;
+    background-image: url('../Pic/img3.jpg');
+    background-position: 0 17%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.pic2 {
+    display: inline-flex;
+    margin: 0;
+    width: 100%;
+    height: 39rem;
+    background-image: url('../Pic/dan-cristian-padure-wZoqZr707VY-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.pic3 {
+    display: inline-flex;
+    width: 100%;
+    height: 39rem;
+    background-image: url('../Pic/ralph-darabos-68eJgnkRckM-unsplash.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.pic-h1{
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+}
+.pic-p{
+    margin-top: 4rem;
+    font-family: 'Lora', serif;
+    font-size: 1.4rem;
+}
+.slider-btn{
+    padding: 0.8rem 2rem;
+    margin-top: 3rem;
+    font-family: 'Lora', serif;
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    border-color: rgb(200, 15, 30);
+    background: none;
+    border: 3px;
+    border-style: solid;
+    transition: color 0.7s ease-in-out;
+}
+.pic-container{
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.slider-btn:hover{
+    cursor: pointer;
+    color: rgb(200, 15, 30);
+}
+
+@media screen and (max-width: 720px) {
+    .pic-h1{
+        font-size: 2rem;
+    }
+    .pic-p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 720px) {
+    .pic-h1{
+        font-size: 2rem;
+    }
+    .pic-p{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,92 @@
+.Section-3{
+    display: flex;
+    width: 100%;
+    height: 39rem;
+    background-color: black;
+    background-image: url('../Pic/dan-cristian-padure-tJ3kT10h6zk-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 24px;
+    color: black;
+}
+.container{
+    display: inline-flex;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 30rem;
+    background-color: rgba(255, 255, 255, 0.15);  
+    backdrop-filter: blur(5px);
+}
+.slider{
+    align-self: center;
+    height: 39rem;
+    width: 100%;
+}
+.slider-p{
+    width: 22rem;
+    height: 5rem;
+    display: inline-flex;
+    align-self:flex-end;
+    background-color: rgb(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    color: black;
+}
+.slider-div-pic1{
+    margin-top: 5rem;
+    display: inline-flex;
+    width: 22rem;
+    height: 28rem;
+    background-image: url('../Products-Pic/img1.jpg');
+    background-position: center;
+    background-size: 22rem 28rem;
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px 10px black;
+    border-radius: 10px;
+}
+.slider-div-pic2{
+    margin-top: 5rem;
+    display: inline-flex;
+    width: 22rem;
+    height: 28rem;
+    background-image: url('../Products-Pic/img2.jpg');
+    background-position: center;
+    background-size: 22rem 28rem;
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px 10px black
+}
+.slider-div-pic3{
+    margin-top: 5rem;
+    display: inline-flex;
+    width: 22rem;
+    height: 28rem;
+    background-image: url('../Products-Pic/img3.jpg');
+    background-position: center;
+    background-size: 22rem 28rem;
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px 10px black
+}
+.slider-div-pic4{
+    margin-top: 5rem;
+    display: inline-flex;
+    width: 22rem;
+    height: 28rem;
+    background-image: url('../Products-Pic/img4.jpg');
+    background-position: center;
+    background-size: 22rem 28rem;
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px 10px black
+}
+.slider-div-pic5{
+    margin-top: 5rem;
+    display: inline-flex;
+    width: 22rem;
+    height: 28rem;
+    background-image: url('../Products-Pic/img5.jpg');
+    background-position: center;
+    background-size: 22rem 28rem;
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px 10px black
+}
